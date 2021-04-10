@@ -15,7 +15,6 @@ import javax.persistence.Table;
  * Apr 9, 2021
  */
 
-<<<<<<< HEAD
 @Entity
 @Table(name="Wallet")
 public class Wallet {
@@ -29,10 +28,8 @@ public class Wallet {
 	@ManyToOne
 	@JoinColumn(name="UserID")
 	public User user;
-=======
 	public Wallet() {
 		super();
 		// Added by Levi to test GitHub
 	}
->>>>>>> a0635a22ef13ee7ad2864d8901f2da15e26ca9e7
 }
