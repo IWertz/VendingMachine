@@ -7,4 +7,8 @@ package model;
  */
 public class Wallet {
 
+	public Wallet() {
+		super();
+		// Added by Levi to test GitHub
+	}
 }
